@@ -1,0 +1,10 @@
+@keyframes color-change { 
+    0% { color: black; } 
+    50% { color: white; } 
+    100% { color: red; }
+}
+
+h2:hover{animation: color-change 3s infinite;
+}
+
+h1{animation: color-change 3s infinite;}
